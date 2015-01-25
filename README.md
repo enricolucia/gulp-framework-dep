@@ -1,4 +1,4 @@
-# gulp-framework-dep [![Code Climate](https://codeclimate.com/github/enricolucia/gulp-angular-dep/badges/gpa.svg)](https://codeclimate.com/github/enricolucia/gulp-angular-dep) [![npm version](https://badge.fury.io/js/gulp-angular-dep.svg)](http://badge.fury.io/js/gulp-angular-dep)
+# gulp-framework-dep [![Code Climate](https://codeclimate.com/github/enricolucia/gulp-framework-dep/badges/gpa.svg)](https://codeclimate.com/github/enricolucia/gulp-framework-dep) [![npm version](https://badge.fury.io/js/gulp-framework-dep.svg)](http://badge.fury.io/js/gulp-framework-dep)
 > Configurable dynamic install framework Bower dependencies.
 
 ## Usage
