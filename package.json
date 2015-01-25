@@ -1,0 +1,53 @@
+{
+  "name": "gulp-framework-dep",
+  "version": "0.0.1",
+  "description": "dynamic framework bower dependencies injections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Enrico Lucia",
+    "email": "enrico.github@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "3.0.1",
+    "underscore": "^1.7.0",
+    "underscore.string": "^2.4.0",
+    "vinyl-fs": "^0.3.13"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "bugs": {
+    "url": "https://github.com/enricolucia/gulp-framework-dep/issues"
+  },
+  "homepage": "https://github.com/enricolucia/gulp-framework-dep",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/enricolucia/gulp-framework-dep.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "framework",
+    "angular",
+    "backbone",
+    "ember",
+    "mvc",
+    "mvc-frameworks",
+    "mv*",
+    "bower"
+  ],
+  "_npmUser": {
+    "name": "Enrico Lucia",
+    "email": "enrico.github@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "Enrico Lucia",
+      "email": "enrico.github@gmail.com"
+    }
+  ],
+  "readmeFilename": "README.md"
+}
