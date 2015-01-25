@@ -34,8 +34,9 @@ var frameworkDep = require('gulp-framework-dep');
 
 gulp.task('default', function() {
   return frameworkDep({
-      //framework: 'mvc-sample'
-      //path to .bowerrc
+       // any framework in your project you depend on
+       framework: 'mvc-sample'
+       //path to .bowerrc
        cwd: './',
        //bower folders where to pick files
        directory: './bower_components',
