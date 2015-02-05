@@ -1,6 +1,6 @@
 {
   "name": "gulp-framework-dep",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "dynamic framework bower dependencies injections",
   "main": "index.js",
   "scripts": {

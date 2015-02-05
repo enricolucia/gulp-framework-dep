@@ -44,6 +44,8 @@ gulp.task('default', function() {
        minified: true,
        //exclude files from stream
        exclude: ['arg1','arg2','arg3', .....]
+       //include files in stream (such as external libraries)
+       include: ['arg1','arg2','arg3', .....]
  })
     .pipe(gulp.dest('path/'))
 });
@@ -55,4 +57,7 @@ gulp.task('default', function() {
 ## Changelog
 
 #####0.0.1
+- initial release
+
+#####0.1.0
 - initial release

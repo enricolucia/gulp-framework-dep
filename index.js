@@ -21,12 +21,14 @@ var handleError = function(message) {
 //       framework: 'angular',                //
 //       minified: true,                      //
 //       exclude: ['framework-first',..,]     //
+//       include: ['framework-first',..,]     //
 // };                                         //
 //--------------SAMPLE CONFIG-----------------//
 
 module.exports = function (opts) {
   opts = opts || {exclude: []};
   opts.exclude = opts.exclude || '';
+  opts.include = opts.include || '';
   opts.cwd = opts.cwd ?  path.join(process.cwd(), opts.cwd) : process.cwd();
   frameworkRegExp = new RegExp(opts.framework, 'gi');
 
@@ -57,7 +59,7 @@ module.exports = function (opts) {
       // add dependencies by repeat the step
       if (!!dependencies) {
         _.each(dependencies, function(value, key){
-          if (opts.exclude.indexOf(key) === -1) {
+          if (opts.exclude.indexOf(key) === -1 || opts.include.indexOf(key) !== -1) {
             addPackage(key);
           }
         });
@@ -71,7 +73,7 @@ module.exports = function (opts) {
 
     // calculate the order of packages
     _.each(bowerPackages, function(value, key){
-      if (key.match(frameworkRegExp)) {
+      if (key.match(frameworkRegExp) || opts.include.indexOf(key) !== -1) {
         if (opts.exclude.indexOf(key) === -1) { // add to packagesOrder if it's not in exclude
           addPackage(key);
         }
