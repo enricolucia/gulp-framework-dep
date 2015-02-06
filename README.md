@@ -60,4 +60,4 @@ gulp.task('default', function() {
 - initial release
 
 #####0.1.0
-- initial release
+- include feature 'include' for adding external non-related libraries
