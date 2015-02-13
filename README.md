@@ -1,6 +1,8 @@
 # gulp-framework-dep [![Code Climate](https://codeclimate.com/github/enricolucia/gulp-framework-dep/badges/gpa.svg)](https://codeclimate.com/github/enricolucia/gulp-framework-dep) [![npm version](https://badge.fury.io/js/gulp-framework-dep.svg)](http://badge.fury.io/js/gulp-framework-dep)
 > Configurable dynamic install framework Bower dependencies.
 
+gulp-framework-dep is the improved and arbitrary version of gulp-angular-dep.
+
 ## Usage
 
 First, install `gulp-framework-dep` as a development dependency:
@@ -56,8 +58,14 @@ gulp.task('default', function() {
 
 ## Changelog
 
-#####0.0.1
-- initial release
+#####0.1.3
+- updated reference
+
+#####0.1.2
+- exclude bug fixed
 
 #####0.1.0
 - include feature 'include' for adding external non-related libraries
+
+#####0.0.1
+- initial release
